@@ -1,0 +1,61 @@
+.modal-content {
+    position: absolute;
+    background-color: #f0f0f0;
+    padding: 1rem;
+    width: 35%;
+    border-radius: 0.4rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.close-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.close-button span {
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    margin: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.close-button span:hover {
+    background-color: darkgray;
+}
+
+.contact-details {
+  display: flex;
+}
+
+.right-div {
+  width: 25%;
+  display: inline-block;
+  position: relative;
+}
+
+.right-div img {
+  width: 100%;
+  height: 40%;
+  border-radius: 50%;
+}
+
+.details-div {
+  width: 75%;
+  text-align: left;
+  padding: 0.5rem;
+}
+
+.details-div h2 {
+  margin:0;
+}
+
+.details-div table{
+  /* white-space: nowrap; */
+  margin-top: 1rem;
+}
+
+.details-div table td:first-child {
+  font-weight:bold;
+}

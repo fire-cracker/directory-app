@@ -1,4 +1,8 @@
+import webpack from 'webpack';
 import path from 'path'
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 export default {
   entry: './src/index.jsx',
@@ -32,8 +36,16 @@ export default {
   resolve: {
     extensions: ['.jsx', '.js']
   },
+  plugins: [
+    new webpack.EnvironmentPlugin([
+      'API_URL',
+    ])
+  ],
   devServer: {
     contentBase: path.join(__dirname, 'public'),
     historyApiFallback: true
-  }
+  },
+  node: {
+    fs: "empty"
+ }
 }

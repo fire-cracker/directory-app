@@ -1,7 +1,9 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-import Form from './components/Form';
+import DirectoryPage from './components/DirectoryPage/Directory';
+
+import './index.css'
 
 const wrapper = document.getElementById("app");
-wrapper ? render(<Form />, wrapper) : false;
+render(<DirectoryPage />, wrapper);
