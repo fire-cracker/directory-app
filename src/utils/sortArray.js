@@ -21,10 +21,6 @@ export const filterContacts = (contacts, alphabet) => {
    return filteredContacts.sort(arrayOfObjectsSorter)
 }
 
-export const filteredContactsCount = () => {
-
-}
-
 export const dataFequency = (contacts) => {
     return contacts.reduce((a, b) => {
          if (a[b.name.first.charAt(0)] != null) {

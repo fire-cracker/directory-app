@@ -1,0 +1,669 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] = `
+<DirectoryPage
+  activeContact="Aogan.brown@example.com"
+  alphabet="A"
+  contacts={
+    Array [
+      Object {
+        "email": "batur.kurutluoglu@example.com",
+        "gender": "male",
+        "location": Object {
+          "city": "Iğdır",
+          "coordinates": Object {
+            "latitude": "71.1119",
+            "longitude": "-39.2332",
+          },
+          "country": "Turkey",
+          "postcode": 30325,
+          "state": "Bartın",
+          "street": Object {
+            "name": "Talak Göktepe Cd",
+            "number": 1993,
+          },
+          "timezone": Object {
+            "description": "Brazil, Buenos Aires, Georgetown",
+            "offset": "-3:00",
+          },
+        },
+        "name": Object {
+          "first": "Batur",
+          "last": "Kurutluoğlu",
+          "title": "Mr",
+        },
+        "phone": "(548)-203-2666",
+        "picture": Object {
+          "large": "https://randomuser.me/api/portraits/men/49.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/49.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/49.jpg",
+        },
+      },
+      Object {
+        "email": "Aogan.brown@example.com",
+        "gender": "male",
+        "location": Object {
+          "city": "Porirua",
+          "coordinates": Object {
+            "latitude": "25.3960",
+            "longitude": "38.3718",
+          },
+          "country": "New Zealand",
+          "postcode": 65728,
+          "state": "Marlborough",
+          "street": Object {
+            "name": "Manchester Street",
+            "number": 9347,
+          },
+          "timezone": Object {
+            "description": "Azores, Cape Verde Islands",
+            "offset": "-1:00",
+          },
+        },
+        "name": Object {
+          "first": "Aogan",
+          "last": "Brown",
+          "title": "Mr",
+        },
+        "phone": "(753)-370-3854",
+        "picture": Object {
+          "large": "https://randomuser.me/api/portraits/men/91.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/91.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/91.jpg",
+        },
+      },
+      Object {
+        "email": "lucas.johnson@example.com",
+        "gender": "male",
+        "location": Object {
+          "city": "Albany",
+          "coordinates": Object {
+            "latitude": "-36.6553",
+            "longitude": "-21.6926",
+          },
+          "country": "Australia",
+          "postcode": 1308,
+          "state": "Victoria",
+          "street": Object {
+            "name": "Frances Ct",
+            "number": 9372,
+          },
+          "timezone": Object {
+            "description": "Magadan, Solomon Islands, New Caledonia",
+            "offset": "+11:00",
+          },
+        },
+        "name": Object {
+          "first": "Aucas",
+          "last": "Johnson",
+          "title": "Mr",
+        },
+        "phone": "02-1309-4578",
+        "picture": Object {
+          "large": "https://randomuser.me/api/portraits/men/55.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/55.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/55.jpg",
+        },
+      },
+      Object {
+        "email": "ronja.makela@example.com",
+        "gender": "female",
+        "location": Object {
+          "city": "Seinäjoki",
+          "coordinates": Object {
+            "latitude": "11.8244",
+            "longitude": "-17.2123",
+          },
+          "country": "Finland",
+          "postcode": 51002,
+          "state": "North Karelia",
+          "street": Object {
+            "name": "Pispalan Valtatie",
+            "number": 6951,
+          },
+          "timezone": Object {
+            "description": "Kabul",
+            "offset": "+4:30",
+          },
+        },
+        "name": Object {
+          "first": "Ronja",
+          "last": "Makela",
+          "title": "Ms",
+        },
+        "phone": "09-368-488",
+        "picture": Object {
+          "large": "https://randomuser.me/api/portraits/women/31.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/women/31.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/women/31.jpg",
+        },
+      },
+      Object {
+        "email": "danielle.harrison@example.com",
+        "gender": "female",
+        "location": Object {
+          "city": "St Davids",
+          "coordinates": Object {
+            "latitude": "-39.3993",
+            "longitude": "-41.0986",
+          },
+          "country": "United Kingdom",
+          "postcode": "QD8 1TW",
+          "state": "Leicestershire",
+          "street": Object {
+            "name": "Park Road",
+            "number": 1990,
+          },
+          "timezone": Object {
+            "description": "Atlantic Time (Canada), Caracas, La Paz",
+            "offset": "-4:00",
+          },
+        },
+        "name": Object {
+          "first": "Danielle",
+          "last": "Harrison",
+          "title": "Mrs",
+        },
+        "phone": "017684 25271",
+        "picture": Object {
+          "large": "https://randomuser.me/api/portraits/women/50.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/women/50.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/women/50.jpg",
+        },
+      },
+      Object {
+        "email": "jayden.abraham@example.com",
+        "gender": "male",
+        "location": Object {
+          "city": "St. George",
+          "coordinates": Object {
+            "latitude": "9.2121",
+            "longitude": "132.7835",
+          },
+          "country": "Canada",
+          "postcode": "A2Z 4G0",
+          "state": "Prince Edward Island",
+          "street": Object {
+            "name": "Pierre Ave",
+            "number": 8429,
+          },
+          "timezone": Object {
+            "description": "Newfoundland",
+            "offset": "-3:30",
+          },
+        },
+        "name": Object {
+          "first": "Jayden",
+          "last": "Abraham",
+          "title": "Mr",
+        },
+        "phone": "393-447-5309",
+        "picture": Object {
+          "large": "https://randomuser.me/api/portraits/men/36.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/36.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/36.jpg",
+        },
+      },
+      Object {
+        "email": "florent.lefevre@example.com",
+        "gender": "male",
+        "location": Object {
+          "city": "Saint-Sulpice (Vd)",
+          "coordinates": Object {
+            "latitude": "-49.2735",
+            "longitude": "35.4768",
+          },
+          "country": "Switzerland",
+          "postcode": 9569,
+          "state": "Bern",
+          "street": Object {
+            "name": "Place du 22 Novembre 1943",
+            "number": 2681,
+          },
+          "timezone": Object {
+            "description": "Baghdad, Riyadh, Moscow, St. Petersburg",
+            "offset": "+3:00",
+          },
+        },
+        "name": Object {
+          "first": "Florent",
+          "last": "Lefevre",
+          "title": "Monsieur",
+        },
+        "phone": "079 817 45 84",
+        "picture": Object {
+          "large": "https://randomuser.me/api/portraits/men/18.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/18.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/18.jpg",
+        },
+      },
+      Object {
+        "email": "hans-dietrich.haug@example.com",
+        "gender": "male",
+        "location": Object {
+          "city": "Geislingen an der Steige",
+          "coordinates": Object {
+            "latitude": "38.3683",
+            "longitude": "15.5878",
+          },
+          "country": "Germany",
+          "postcode": 22013,
+          "state": "Bremen",
+          "street": Object {
+            "name": "Rosenweg",
+            "number": 4410,
+          },
+          "timezone": Object {
+            "description": "Mid-Atlantic",
+            "offset": "-2:00",
+          },
+        },
+        "name": Object {
+          "first": "Hans-Dietrich",
+          "last": "Haug",
+          "title": "Mr",
+        },
+        "phone": "0191-1658487",
+        "picture": Object {
+          "large": "https://randomuser.me/api/portraits/men/50.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/50.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/50.jpg",
+        },
+      },
+      Object {
+        "email": "mhrd.prs@example.com",
+        "gender": "male",
+        "location": Object {
+          "city": "سبزوار",
+          "coordinates": Object {
+            "latitude": "-51.4614",
+            "longitude": "138.5505",
+          },
+          "country": "Iran",
+          "postcode": 74695,
+          "state": "خراسان رضوی",
+          "street": Object {
+            "name": "واعظی",
+            "number": 5845,
+          },
+          "timezone": Object {
+            "description": "Adelaide, Darwin",
+            "offset": "+9:30",
+          },
+        },
+        "name": Object {
+          "first": "Raju",
+          "last": "پارسا",
+          "title": "Mr",
+        },
+        "phone": "004-87957208",
+        "picture": Object {
+          "large": "https://randomuser.me/api/portraits/men/22.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/22.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/22.jpg",
+        },
+      },
+      Object {
+        "email": "laura.adam@example.com",
+        "gender": "female",
+        "location": Object {
+          "city": "Saint-Étienne",
+          "coordinates": Object {
+            "latitude": "51.1143",
+            "longitude": "-114.2131",
+          },
+          "country": "France",
+          "postcode": 96121,
+          "state": "Bas-Rhin",
+          "street": Object {
+            "name": "Rue Docteur-Bonhomme",
+            "number": 7699,
+          },
+          "timezone": Object {
+            "description": "Eastern Australia, Guam, Vladivostok",
+            "offset": "+10:00",
+          },
+        },
+        "name": Object {
+          "first": "Aaura",
+          "last": "Adam",
+          "title": "Ms",
+        },
+        "phone": "01-85-62-38-47",
+        "picture": Object {
+          "large": "https://randomuser.me/api/portraits/women/50.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/women/50.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/women/50.jpg",
+        },
+      },
+    ]
+  }
+  fetchData={[MockFunction]}
+  getContacts={[MockFunction]}
+>
+  <div
+    className="app__background"
+  >
+    <div
+      className="directory"
+    >
+      <div
+        className="alphabet__div"
+      >
+        <ul
+          className="alphabet"
+        >
+          <Alphabets
+            activeContact={null}
+            alphabet="A"
+            contacts={Array []}
+            onClickAlphabet={[Function]}
+          >
+            <button
+              key="65"
+              onClick={[Function]}
+              type="button"
+              value="A"
+            >
+              A
+              <sub>
+                0
+              </sub>
+            </button>
+            <button
+              key="66"
+              onClick={[Function]}
+              type="button"
+              value="B"
+            >
+              B
+              <sub>
+                0
+              </sub>
+            </button>
+            <button
+              key="67"
+              onClick={[Function]}
+              type="button"
+              value="C"
+            >
+              C
+              <sub>
+                0
+              </sub>
+            </button>
+            <button
+              key="68"
+              onClick={[Function]}
+              type="button"
+              value="D"
+            >
+              D
+              <sub>
+                0
+              </sub>
+            </button>
+            <button
+              key="69"
+              onClick={[Function]}
+              type="button"
+              value="E"
+            >
+              E
+              <sub>
+                0
+              </sub>
+            </button>
+            <button
+              key="70"
+              onClick={[Function]}
+              type="button"
+              value="F"
+            >
+              F
+              <sub>
+                0
+              </sub>
+            </button>
+            <button
+              key="71"
+              onClick={[Function]}
+              type="button"
+              value="G"
+            >
+              G
+              <sub>
+                0
+              </sub>
+            </button>
+            <button
+              key="72"
+              onClick={[Function]}
+              type="button"
+              value="H"
+            >
+              H
+              <sub>
+                0
+              </sub>
+            </button>
+            <button
+              key="73"
+              onClick={[Function]}
+              type="button"
+              value="I"
+            >
+              I
+              <sub>
+                0
+              </sub>
+            </button>
+            <button
+              key="74"
+              onClick={[Function]}
+              type="button"
+              value="J"
+            >
+              J
+              <sub>
+                0
+              </sub>
+            </button>
+            <button
+              key="75"
+              onClick={[Function]}
+              type="button"
+              value="K"
+            >
+              K
+              <sub>
+                0
+              </sub>
+            </button>
+            <button
+              key="76"
+              onClick={[Function]}
+              type="button"
+              value="L"
+            >
+              L
+              <sub>
+                0
+              </sub>
+            </button>
+            <button
+              key="77"
+              onClick={[Function]}
+              type="button"
+              value="M"
+            >
+              M
+              <sub>
+                0
+              </sub>
+            </button>
+            <button
+              key="78"
+              onClick={[Function]}
+              type="button"
+              value="N"
+            >
+              N
+              <sub>
+                0
+              </sub>
+            </button>
+            <button
+              key="79"
+              onClick={[Function]}
+              type="button"
+              value="O"
+            >
+              O
+              <sub>
+                0
+              </sub>
+            </button>
+            <button
+              key="80"
+              onClick={[Function]}
+              type="button"
+              value="P"
+            >
+              P
+              <sub>
+                0
+              </sub>
+            </button>
+            <button
+              key="81"
+              onClick={[Function]}
+              type="button"
+              value="Q"
+            >
+              Q
+              <sub>
+                0
+              </sub>
+            </button>
+            <button
+              key="82"
+              onClick={[Function]}
+              type="button"
+              value="R"
+            >
+              R
+              <sub>
+                0
+              </sub>
+            </button>
+            <button
+              key="83"
+              onClick={[Function]}
+              type="button"
+              value="S"
+            >
+              S
+              <sub>
+                0
+              </sub>
+            </button>
+            <button
+              key="84"
+              onClick={[Function]}
+              type="button"
+              value="T"
+            >
+              T
+              <sub>
+                0
+              </sub>
+            </button>
+            <button
+              key="85"
+              onClick={[Function]}
+              type="button"
+              value="U"
+            >
+              U
+              <sub>
+                0
+              </sub>
+            </button>
+            <button
+              key="86"
+              onClick={[Function]}
+              type="button"
+              value="V"
+            >
+              V
+              <sub>
+                0
+              </sub>
+            </button>
+            <button
+              key="87"
+              onClick={[Function]}
+              type="button"
+              value="W"
+            >
+              W
+              <sub>
+                0
+              </sub>
+            </button>
+            <button
+              key="88"
+              onClick={[Function]}
+              type="button"
+              value="X"
+            >
+              X
+              <sub>
+                0
+              </sub>
+            </button>
+            <button
+              key="89"
+              onClick={[Function]}
+              type="button"
+              value="Y"
+            >
+              Y
+              <sub>
+                0
+              </sub>
+            </button>
+            <button
+              key="90"
+              onClick={[Function]}
+              type="button"
+              value="Z"
+            >
+              Z
+              <sub>
+                0
+              </sub>
+            </button>
+          </Alphabets>
+        </ul>
+      </div>
+      <div
+        className="contact__div"
+      >
+        <ul
+          className="contact"
+        >
+          <Contacts
+            activeContact={null}
+            alphabet="A"
+            closeContactDropdown={[Function]}
+            contacts={Array []}
+            onClickContact={[Function]}
+          />
+        </ul>
+      </div>
+    </div>
+  </div>
+</DirectoryPage>
+`;

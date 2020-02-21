@@ -4,13 +4,8 @@ import { filterContacts } from '../../utils/sortArray'
 import ContactModal from '../modal/ContactModal'
 
 const Contacts = (props) => {
-    let [state, setState] = useState(props)
-
-    useEffect(() => {
-        setState(props);
-    }, [props]);
-
-    let { contacts, alphabet, activeContact, onClickContact, closeContactDropdown } = state
+   
+    const { contacts, alphabet, activeContact, onClickContact, closeContactDropdown } = props
 
     return filterContacts(contacts, alphabet).map((contact, index) => (
         <li key={index}>

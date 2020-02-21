@@ -9,7 +9,7 @@ const DirectoryPage = () => {
   const [state, setState] = useState({
     contacts: [],
     alphabet: 'A',
-    activeContact: null
+    activeContactEmail: null,
   });
 
   useEffect(() => {
@@ -27,21 +27,21 @@ const DirectoryPage = () => {
     setState(prevState => ({
       ...prevState,
       alphabet: value,
-      activeContact: null
+      activeContactEmail: null
     }))
   }
 
   const onClickContact = (contactEmail) => {
     setState(prevState => ({
       ...prevState,
-      activeContact: contactEmail,
+      activeContactEmail: contactEmail,
     }))
   }
 
   const onClickCloseDropdown = () => {
     setState((prev) => ({
       ...prev,
-      activeContact: 'null'
+      activeContactEmail: 'null'
     }));
   }
 

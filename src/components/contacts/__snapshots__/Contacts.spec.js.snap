@@ -1,0 +1,521 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for the Contacts section Should render the Contacts section 1`] = `
+<Contacts
+  activeContact="Aogan.brown@example.com"
+  alphabet="A"
+  closeContactDropdown={[MockFunction]}
+  contacts={
+    Array [
+      Object {
+        "email": "batur.kurutluoglu@example.com",
+        "gender": "male",
+        "location": Object {
+          "city": "Iğdır",
+          "coordinates": Object {
+            "latitude": "71.1119",
+            "longitude": "-39.2332",
+          },
+          "country": "Turkey",
+          "postcode": 30325,
+          "state": "Bartın",
+          "street": Object {
+            "name": "Talak Göktepe Cd",
+            "number": 1993,
+          },
+          "timezone": Object {
+            "description": "Brazil, Buenos Aires, Georgetown",
+            "offset": "-3:00",
+          },
+        },
+        "name": Object {
+          "first": "Batur",
+          "last": "Kurutluoğlu",
+          "title": "Mr",
+        },
+        "phone": "(548)-203-2666",
+        "picture": Object {
+          "large": "https://randomuser.me/api/portraits/men/49.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/49.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/49.jpg",
+        },
+      },
+      Object {
+        "email": "Aogan.brown@example.com",
+        "gender": "male",
+        "location": Object {
+          "city": "Porirua",
+          "coordinates": Object {
+            "latitude": "25.3960",
+            "longitude": "38.3718",
+          },
+          "country": "New Zealand",
+          "postcode": 65728,
+          "state": "Marlborough",
+          "street": Object {
+            "name": "Manchester Street",
+            "number": 9347,
+          },
+          "timezone": Object {
+            "description": "Azores, Cape Verde Islands",
+            "offset": "-1:00",
+          },
+        },
+        "name": Object {
+          "first": "Aogan",
+          "last": "Brown",
+          "title": "Mr",
+        },
+        "phone": "(753)-370-3854",
+        "picture": Object {
+          "large": "https://randomuser.me/api/portraits/men/91.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/91.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/91.jpg",
+        },
+      },
+      Object {
+        "email": "lucas.johnson@example.com",
+        "gender": "male",
+        "location": Object {
+          "city": "Albany",
+          "coordinates": Object {
+            "latitude": "-36.6553",
+            "longitude": "-21.6926",
+          },
+          "country": "Australia",
+          "postcode": 1308,
+          "state": "Victoria",
+          "street": Object {
+            "name": "Frances Ct",
+            "number": 9372,
+          },
+          "timezone": Object {
+            "description": "Magadan, Solomon Islands, New Caledonia",
+            "offset": "+11:00",
+          },
+        },
+        "name": Object {
+          "first": "Aucas",
+          "last": "Johnson",
+          "title": "Mr",
+        },
+        "phone": "02-1309-4578",
+        "picture": Object {
+          "large": "https://randomuser.me/api/portraits/men/55.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/55.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/55.jpg",
+        },
+      },
+      Object {
+        "email": "ronja.makela@example.com",
+        "gender": "female",
+        "location": Object {
+          "city": "Seinäjoki",
+          "coordinates": Object {
+            "latitude": "11.8244",
+            "longitude": "-17.2123",
+          },
+          "country": "Finland",
+          "postcode": 51002,
+          "state": "North Karelia",
+          "street": Object {
+            "name": "Pispalan Valtatie",
+            "number": 6951,
+          },
+          "timezone": Object {
+            "description": "Kabul",
+            "offset": "+4:30",
+          },
+        },
+        "name": Object {
+          "first": "Ronja",
+          "last": "Makela",
+          "title": "Ms",
+        },
+        "phone": "09-368-488",
+        "picture": Object {
+          "large": "https://randomuser.me/api/portraits/women/31.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/women/31.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/women/31.jpg",
+        },
+      },
+      Object {
+        "email": "danielle.harrison@example.com",
+        "gender": "female",
+        "location": Object {
+          "city": "St Davids",
+          "coordinates": Object {
+            "latitude": "-39.3993",
+            "longitude": "-41.0986",
+          },
+          "country": "United Kingdom",
+          "postcode": "QD8 1TW",
+          "state": "Leicestershire",
+          "street": Object {
+            "name": "Park Road",
+            "number": 1990,
+          },
+          "timezone": Object {
+            "description": "Atlantic Time (Canada), Caracas, La Paz",
+            "offset": "-4:00",
+          },
+        },
+        "name": Object {
+          "first": "Danielle",
+          "last": "Harrison",
+          "title": "Mrs",
+        },
+        "phone": "017684 25271",
+        "picture": Object {
+          "large": "https://randomuser.me/api/portraits/women/50.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/women/50.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/women/50.jpg",
+        },
+      },
+      Object {
+        "email": "jayden.abraham@example.com",
+        "gender": "male",
+        "location": Object {
+          "city": "St. George",
+          "coordinates": Object {
+            "latitude": "9.2121",
+            "longitude": "132.7835",
+          },
+          "country": "Canada",
+          "postcode": "A2Z 4G0",
+          "state": "Prince Edward Island",
+          "street": Object {
+            "name": "Pierre Ave",
+            "number": 8429,
+          },
+          "timezone": Object {
+            "description": "Newfoundland",
+            "offset": "-3:30",
+          },
+        },
+        "name": Object {
+          "first": "Jayden",
+          "last": "Abraham",
+          "title": "Mr",
+        },
+        "phone": "393-447-5309",
+        "picture": Object {
+          "large": "https://randomuser.me/api/portraits/men/36.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/36.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/36.jpg",
+        },
+      },
+      Object {
+        "email": "florent.lefevre@example.com",
+        "gender": "male",
+        "location": Object {
+          "city": "Saint-Sulpice (Vd)",
+          "coordinates": Object {
+            "latitude": "-49.2735",
+            "longitude": "35.4768",
+          },
+          "country": "Switzerland",
+          "postcode": 9569,
+          "state": "Bern",
+          "street": Object {
+            "name": "Place du 22 Novembre 1943",
+            "number": 2681,
+          },
+          "timezone": Object {
+            "description": "Baghdad, Riyadh, Moscow, St. Petersburg",
+            "offset": "+3:00",
+          },
+        },
+        "name": Object {
+          "first": "Florent",
+          "last": "Lefevre",
+          "title": "Monsieur",
+        },
+        "phone": "079 817 45 84",
+        "picture": Object {
+          "large": "https://randomuser.me/api/portraits/men/18.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/18.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/18.jpg",
+        },
+      },
+      Object {
+        "email": "hans-dietrich.haug@example.com",
+        "gender": "male",
+        "location": Object {
+          "city": "Geislingen an der Steige",
+          "coordinates": Object {
+            "latitude": "38.3683",
+            "longitude": "15.5878",
+          },
+          "country": "Germany",
+          "postcode": 22013,
+          "state": "Bremen",
+          "street": Object {
+            "name": "Rosenweg",
+            "number": 4410,
+          },
+          "timezone": Object {
+            "description": "Mid-Atlantic",
+            "offset": "-2:00",
+          },
+        },
+        "name": Object {
+          "first": "Hans-Dietrich",
+          "last": "Haug",
+          "title": "Mr",
+        },
+        "phone": "0191-1658487",
+        "picture": Object {
+          "large": "https://randomuser.me/api/portraits/men/50.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/50.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/50.jpg",
+        },
+      },
+      Object {
+        "email": "mhrd.prs@example.com",
+        "gender": "male",
+        "location": Object {
+          "city": "سبزوار",
+          "coordinates": Object {
+            "latitude": "-51.4614",
+            "longitude": "138.5505",
+          },
+          "country": "Iran",
+          "postcode": 74695,
+          "state": "خراسان رضوی",
+          "street": Object {
+            "name": "واعظی",
+            "number": 5845,
+          },
+          "timezone": Object {
+            "description": "Adelaide, Darwin",
+            "offset": "+9:30",
+          },
+        },
+        "name": Object {
+          "first": "Raju",
+          "last": "پارسا",
+          "title": "Mr",
+        },
+        "phone": "004-87957208",
+        "picture": Object {
+          "large": "https://randomuser.me/api/portraits/men/22.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/22.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/22.jpg",
+        },
+      },
+      Object {
+        "email": "laura.adam@example.com",
+        "gender": "female",
+        "location": Object {
+          "city": "Saint-Étienne",
+          "coordinates": Object {
+            "latitude": "51.1143",
+            "longitude": "-114.2131",
+          },
+          "country": "France",
+          "postcode": 96121,
+          "state": "Bas-Rhin",
+          "street": Object {
+            "name": "Rue Docteur-Bonhomme",
+            "number": 7699,
+          },
+          "timezone": Object {
+            "description": "Eastern Australia, Guam, Vladivostok",
+            "offset": "+10:00",
+          },
+        },
+        "name": Object {
+          "first": "Aaura",
+          "last": "Adam",
+          "title": "Ms",
+        },
+        "phone": "01-85-62-38-47",
+        "picture": Object {
+          "large": "https://randomuser.me/api/portraits/women/50.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/women/50.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/women/50.jpg",
+        },
+      },
+    ]
+  }
+  onClickContact={[MockFunction]}
+>
+  <li
+    key="0"
+  >
+    <span
+      onClick={[Function]}
+    >
+      Aaura
+       
+      Adam
+    </span>
+  </li>
+  <li
+    key="1"
+  >
+    <span
+      onClick={[Function]}
+    >
+      Aogan
+       
+      Brown
+    </span>
+    <ContactModal
+      contactDetails={
+        Object {
+          "email": "Aogan.brown@example.com",
+          "gender": "male",
+          "location": Object {
+            "city": "Porirua",
+            "coordinates": Object {
+              "latitude": "25.3960",
+              "longitude": "38.3718",
+            },
+            "country": "New Zealand",
+            "postcode": 65728,
+            "state": "Marlborough",
+            "street": Object {
+              "name": "Manchester Street",
+              "number": 9347,
+            },
+            "timezone": Object {
+              "description": "Azores, Cape Verde Islands",
+              "offset": "-1:00",
+            },
+          },
+          "name": Object {
+            "first": "Aogan",
+            "last": "Brown",
+            "title": "Mr",
+          },
+          "phone": "(753)-370-3854",
+          "picture": Object {
+            "large": "https://randomuser.me/api/portraits/men/91.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/91.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/91.jpg",
+          },
+        }
+      }
+      onClickCloseDropdown={[MockFunction]}
+    >
+      <div
+        className="modal-content"
+      >
+        <div
+          className="close-button"
+        >
+          <span
+            onClick={[MockFunction]}
+          >
+            ×
+          </span>
+        </div>
+        <div
+          className="contact-details"
+        >
+          <div
+            className="right-div"
+          >
+            <img
+              alt="John"
+              src="https://randomuser.me/api/portraits/thumb/men/91.jpg"
+            />
+          </div>
+          <div
+            className="details-div"
+          >
+            <h2>
+              Aogan
+               
+              Brown
+            </h2>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    Title
+                  </td>
+                  <td>
+                    Mr
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Gender
+                  </td>
+                  <td>
+                    male
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Email
+                  </td>
+                  <td>
+                    Aogan.brown@example.com
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Phone
+                  </td>
+                  <td>
+                    (753)-370-3854
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Street
+                  </td>
+                  <td>
+                    9347
+                     
+                    Manchester Street
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    City
+                  </td>
+                  <td>
+                    Porirua
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    State
+                  </td>
+                  <td>
+                    Marlborough
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Postcode
+                  </td>
+                  <td>
+                    65728
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </ContactModal>
+  </li>
+  <li
+    key="2"
+  >
+    <span
+      onClick={[Function]}
+    >
+      Aucas
+       
+      Johnson
+    </span>
+  </li>
+</Contacts>
+`;
