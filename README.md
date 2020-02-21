@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/fire-cracker/directory-app.svg?branch=master)](https://travis-ci.org/fire-cracker/directory-app)[![Coverage Status](https://coveralls.io/repos/github/fire-cracker/directory-app/badge.svg?branch=master)](https://coveralls.io/github/fire-cracker/directory-app?branch=master)

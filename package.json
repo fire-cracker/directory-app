@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest -u --coverage",
     "test-watch": "jest -u --coverage --watchAll",
+    "coverage": "cat ./coverage/lcov.info | coveralls",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development --hot",
     "start-dev": ""
@@ -48,6 +49,7 @@
     "@babel/register": "^7.8.3",
     "@babel/runtime": "^7.8.4",
     "axios": "^0.19.2",
+    "coveralls": "^3.0.9",
     "dotenv": "^8.2.0",
     "path": "^0.12.7",
     "react": "^16.12.0",
