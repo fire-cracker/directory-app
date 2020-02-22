@@ -8,9 +8,10 @@
     "test-watch": "jest -u --coverage --watchAll",
     "coverage": "cat ./coverage/lcov.info | coveralls",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --open --mode development",
+    "start-dev": "webpack-dev-server --open --mode development",
     "docs": "jsdoc -c jsdoc.conf.json",
-    "start-dev": ""
+    "heroku-postbuild": "npm run build",
+    "start": "node dist/"
   },
   "jest": {
     "snapshotSerializers": [
