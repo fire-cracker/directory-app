@@ -7,10 +7,11 @@
     "test": "jest -u --coverage",
     "test-watch": "jest -u --coverage --watchAll",
     "coverage": "cat ./coverage/lcov.info | coveralls",
-    "build": "webpack --mode production",
-    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production && babel server -d dist",
+    "start-dev": "webpack-dev-server --open --mode development",
     "docs": "jsdoc -c jsdoc.conf.json",
-    "start-dev": ""
+    "heroku-postbuild": "npm run build",
+    "start": "node dist/"
   },
   "jest": {
     "snapshotSerializers": [
@@ -65,11 +66,14 @@
     "@babel/register": "^7.8.3",
     "@babel/runtime": "^7.8.4",
     "axios": "^0.19.2",
+    "chalk": "^3.0.0",
     "coveralls": "^3.0.9",
     "dotenv": "^8.2.0",
+    "express": "^4.17.1",
     "path": "^0.12.7",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "winston": "^3.2.1"
   }
 }

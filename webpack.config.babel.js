@@ -4,6 +4,8 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
+const mode = process.env.NODE_ENV || 'development';
+
 export default {
   entry: './src/index.jsx',
   output: {
@@ -41,7 +43,7 @@ export default {
       'API_URL',
     ])
   ],
-  devtool: 'cheap-module-eval-source-map',
+  devtool: (mode === 'development')? 'cheap-module-eval-source-map' : 'source-map',
   devServer: {
     contentBase: path.join(__dirname, 'public'),
     historyApiFallback: true
