@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-import DirectoryPage from './components/DirectoryPage/DirectoryPage';
+import DirectoryPage from './components/directoryPage/DirectoryPage';
 
 import './index.css'
 

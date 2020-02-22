@@ -3,6 +3,7 @@
 exports[`Tests for the Alphabet section Should render the Alphabet section 1`] = `
 <Fragment>
   <button
+    className="active"
     key="65"
     onClick={[MockFunction]}
     type="button"
@@ -14,6 +15,7 @@ exports[`Tests for the Alphabet section Should render the Alphabet section 1`] =
     </sub>
   </button>
   <button
+    className={null}
     key="66"
     onClick={[MockFunction]}
     type="button"
@@ -25,6 +27,7 @@ exports[`Tests for the Alphabet section Should render the Alphabet section 1`] =
     </sub>
   </button>
   <button
+    className={null}
     key="67"
     onClick={[MockFunction]}
     type="button"
@@ -36,6 +39,7 @@ exports[`Tests for the Alphabet section Should render the Alphabet section 1`] =
     </sub>
   </button>
   <button
+    className={null}
     key="68"
     onClick={[MockFunction]}
     type="button"
@@ -47,6 +51,7 @@ exports[`Tests for the Alphabet section Should render the Alphabet section 1`] =
     </sub>
   </button>
   <button
+    className={null}
     key="69"
     onClick={[MockFunction]}
     type="button"
@@ -58,6 +63,7 @@ exports[`Tests for the Alphabet section Should render the Alphabet section 1`] =
     </sub>
   </button>
   <button
+    className={null}
     key="70"
     onClick={[MockFunction]}
     type="button"
@@ -69,6 +75,7 @@ exports[`Tests for the Alphabet section Should render the Alphabet section 1`] =
     </sub>
   </button>
   <button
+    className={null}
     key="71"
     onClick={[MockFunction]}
     type="button"
@@ -80,6 +87,7 @@ exports[`Tests for the Alphabet section Should render the Alphabet section 1`] =
     </sub>
   </button>
   <button
+    className={null}
     key="72"
     onClick={[MockFunction]}
     type="button"
@@ -91,6 +99,7 @@ exports[`Tests for the Alphabet section Should render the Alphabet section 1`] =
     </sub>
   </button>
   <button
+    className={null}
     key="73"
     onClick={[MockFunction]}
     type="button"
@@ -102,6 +111,7 @@ exports[`Tests for the Alphabet section Should render the Alphabet section 1`] =
     </sub>
   </button>
   <button
+    className={null}
     key="74"
     onClick={[MockFunction]}
     type="button"
@@ -113,6 +123,7 @@ exports[`Tests for the Alphabet section Should render the Alphabet section 1`] =
     </sub>
   </button>
   <button
+    className={null}
     key="75"
     onClick={[MockFunction]}
     type="button"
@@ -124,6 +135,7 @@ exports[`Tests for the Alphabet section Should render the Alphabet section 1`] =
     </sub>
   </button>
   <button
+    className={null}
     key="76"
     onClick={[MockFunction]}
     type="button"
@@ -135,6 +147,7 @@ exports[`Tests for the Alphabet section Should render the Alphabet section 1`] =
     </sub>
   </button>
   <button
+    className={null}
     key="77"
     onClick={[MockFunction]}
     type="button"
@@ -146,6 +159,7 @@ exports[`Tests for the Alphabet section Should render the Alphabet section 1`] =
     </sub>
   </button>
   <button
+    className={null}
     key="78"
     onClick={[MockFunction]}
     type="button"
@@ -157,6 +171,7 @@ exports[`Tests for the Alphabet section Should render the Alphabet section 1`] =
     </sub>
   </button>
   <button
+    className={null}
     key="79"
     onClick={[MockFunction]}
     type="button"
@@ -168,6 +183,7 @@ exports[`Tests for the Alphabet section Should render the Alphabet section 1`] =
     </sub>
   </button>
   <button
+    className={null}
     key="80"
     onClick={[MockFunction]}
     type="button"
@@ -179,6 +195,7 @@ exports[`Tests for the Alphabet section Should render the Alphabet section 1`] =
     </sub>
   </button>
   <button
+    className={null}
     key="81"
     onClick={[MockFunction]}
     type="button"
@@ -190,6 +207,7 @@ exports[`Tests for the Alphabet section Should render the Alphabet section 1`] =
     </sub>
   </button>
   <button
+    className={null}
     key="82"
     onClick={[MockFunction]}
     type="button"
@@ -201,6 +219,7 @@ exports[`Tests for the Alphabet section Should render the Alphabet section 1`] =
     </sub>
   </button>
   <button
+    className={null}
     key="83"
     onClick={[MockFunction]}
     type="button"
@@ -212,6 +231,7 @@ exports[`Tests for the Alphabet section Should render the Alphabet section 1`] =
     </sub>
   </button>
   <button
+    className={null}
     key="84"
     onClick={[MockFunction]}
     type="button"
@@ -223,6 +243,7 @@ exports[`Tests for the Alphabet section Should render the Alphabet section 1`] =
     </sub>
   </button>
   <button
+    className={null}
     key="85"
     onClick={[MockFunction]}
     type="button"
@@ -234,6 +255,7 @@ exports[`Tests for the Alphabet section Should render the Alphabet section 1`] =
     </sub>
   </button>
   <button
+    className={null}
     key="86"
     onClick={[MockFunction]}
     type="button"
@@ -245,6 +267,7 @@ exports[`Tests for the Alphabet section Should render the Alphabet section 1`] =
     </sub>
   </button>
   <button
+    className={null}
     key="87"
     onClick={[MockFunction]}
     type="button"
@@ -256,6 +279,7 @@ exports[`Tests for the Alphabet section Should render the Alphabet section 1`] =
     </sub>
   </button>
   <button
+    className={null}
     key="88"
     onClick={[MockFunction]}
     type="button"
@@ -267,6 +291,7 @@ exports[`Tests for the Alphabet section Should render the Alphabet section 1`] =
     </sub>
   </button>
   <button
+    className={null}
     key="89"
     onClick={[MockFunction]}
     type="button"
@@ -278,6 +303,7 @@ exports[`Tests for the Alphabet section Should render the Alphabet section 1`] =
     </sub>
   </button>
   <button
+    className={null}
     key="90"
     onClick={[MockFunction]}
     type="button"

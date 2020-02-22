@@ -2,8 +2,8 @@
 
 exports[`Tests for the Contacts section Should render the Contacts section 1`] = `
 <Contacts
-  activeContact="Aogan.brown@example.com"
-  alphabet="A"
+  activeAlphabet="A"
+  activeContactEmail="Aogan.brown@example.com"
   closeContactDropdown={[MockFunction]}
   contacts={
     Array [

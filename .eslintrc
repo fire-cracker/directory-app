@@ -1,0 +1,58 @@
+{
+  "parser": "babel-eslint",
+  "plugins": ["react", "import", "prettier"],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": [
+    "airbnb-base",
+    "prettier",
+    "prettier/react",
+    "plugin:jsx-a11y/recommended",
+    "plugin:jest/recommended",
+    "plugin:react/recommended"
+  ],
+  "env": {
+    "node": true,
+    "es6": true,
+    "browser": true,
+    "jest": true
+  },
+  "rules": {
+    "no-plusplus": 0,
+    "import/no-named-as-default": 1,
+    "new-cap": 0,
+    "no-param-reassign": 0,
+    "curly": ["error", "multi-line"],
+    "react/jsx-uses-vars": "error",
+    "react/jsx-uses-react": "error",
+    "react/forbid-prop-types": 1,
+    "jsx-a11y/anchor-is-valid": 1,
+    "react/destructuring-assignment": 1,
+    "jsx-a11y/alt-text": 1,
+    "jsx-a11y/anchor-has-content": 1,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "react/require-default-props": 1,
+    "no-shadow": 1,
+    "import/no-unresolved": [2, { "commonjs": true, "amd": true }],
+    "import/named": 2,
+    "import/namespace": 2,
+    "import/default": 2,
+    "import/export": 2
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx"]
+      }
+    },
+    "react": {
+      "version": "detect"
+    }
+  }
+}

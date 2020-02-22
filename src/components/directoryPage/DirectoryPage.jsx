@@ -3,13 +3,22 @@ import React, { useState, useEffect } from 'react'
 import getContacts from '../apiCalls'
 import Alphabets from '../alphabet/Alphabets'
 import Contacts from '../contacts/Contacts'
+
 import './styles.css'
+
+/**
+ * 
+ * This is the Parent component which renders the Directory Page
+ * @component
+ * @method DirectoryPage
+ * @returns {html} Returns html element
+ */
 
 const DirectoryPage = () => {
   const [state, setState] = useState({
     contacts: [],
-    alphabet: 'A',
-    activeContactEmail: null,
+    activeAlphabet: 'A',
+    activeContactEmail: ''
   });
 
   useEffect(() => {
@@ -26,8 +35,8 @@ const DirectoryPage = () => {
   const onClickAlphabets = ({ currentTarget: { value } }) => {
     setState(prevState => ({
       ...prevState,
-      alphabet: value,
-      activeContactEmail: null
+      activeAlphabet: value,
+      activeContactEmail: ''
     }))
   }
 
@@ -41,7 +50,7 @@ const DirectoryPage = () => {
   const onClickCloseDropdown = () => {
     setState((prev) => ({
       ...prev,
-      activeContactEmail: 'null'
+      activeContactEmail: ''
     }));
   }
 

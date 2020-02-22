@@ -6,8 +6,8 @@ import contactsData from '../../_mocks_/data.json'
 
 describe('Tests for the Contacts section', () => {
     const props = {
-        activeContact: 'Aogan.brown@example.com',
-        alphabet: 'A',
+        activeContactEmail: 'Aogan.brown@example.com',
+        activeAlphabet: 'A',
         contacts: contactsData,
         onClickContact: jest.fn(),
         closeContactDropdown: jest.fn(),
@@ -29,7 +29,8 @@ describe('Tests for the Contacts section', () => {
 
     it('Should render the Contact details on click', () => {
        expect(wrapper.find('span')).toBeDefined();
-       expect(wrapper.find('span').at(0).simulate('click'))
+       wrapper.find('span').at(0).simulate('click')
+       expect(props.onClickContact).toHaveBeenCalled()
    })
 })
 

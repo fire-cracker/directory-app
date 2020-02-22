@@ -354,12 +354,13 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
           className="alphabet"
         >
           <Alphabets
-            activeContact={null}
-            alphabet="A"
+            activeAlphabet="A"
+            activeContactEmail=""
             contacts={Array []}
             onClickAlphabet={[Function]}
           >
             <button
+              className="active"
               key="65"
               onClick={[Function]}
               type="button"
@@ -371,6 +372,7 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
               </sub>
             </button>
             <button
+              className={null}
               key="66"
               onClick={[Function]}
               type="button"
@@ -382,6 +384,7 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
               </sub>
             </button>
             <button
+              className={null}
               key="67"
               onClick={[Function]}
               type="button"
@@ -393,6 +396,7 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
               </sub>
             </button>
             <button
+              className={null}
               key="68"
               onClick={[Function]}
               type="button"
@@ -404,6 +408,7 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
               </sub>
             </button>
             <button
+              className={null}
               key="69"
               onClick={[Function]}
               type="button"
@@ -415,6 +420,7 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
               </sub>
             </button>
             <button
+              className={null}
               key="70"
               onClick={[Function]}
               type="button"
@@ -426,6 +432,7 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
               </sub>
             </button>
             <button
+              className={null}
               key="71"
               onClick={[Function]}
               type="button"
@@ -437,6 +444,7 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
               </sub>
             </button>
             <button
+              className={null}
               key="72"
               onClick={[Function]}
               type="button"
@@ -448,6 +456,7 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
               </sub>
             </button>
             <button
+              className={null}
               key="73"
               onClick={[Function]}
               type="button"
@@ -459,6 +468,7 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
               </sub>
             </button>
             <button
+              className={null}
               key="74"
               onClick={[Function]}
               type="button"
@@ -470,6 +480,7 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
               </sub>
             </button>
             <button
+              className={null}
               key="75"
               onClick={[Function]}
               type="button"
@@ -481,6 +492,7 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
               </sub>
             </button>
             <button
+              className={null}
               key="76"
               onClick={[Function]}
               type="button"
@@ -492,6 +504,7 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
               </sub>
             </button>
             <button
+              className={null}
               key="77"
               onClick={[Function]}
               type="button"
@@ -503,6 +516,7 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
               </sub>
             </button>
             <button
+              className={null}
               key="78"
               onClick={[Function]}
               type="button"
@@ -514,6 +528,7 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
               </sub>
             </button>
             <button
+              className={null}
               key="79"
               onClick={[Function]}
               type="button"
@@ -525,6 +540,7 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
               </sub>
             </button>
             <button
+              className={null}
               key="80"
               onClick={[Function]}
               type="button"
@@ -536,6 +552,7 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
               </sub>
             </button>
             <button
+              className={null}
               key="81"
               onClick={[Function]}
               type="button"
@@ -547,6 +564,7 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
               </sub>
             </button>
             <button
+              className={null}
               key="82"
               onClick={[Function]}
               type="button"
@@ -558,6 +576,7 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
               </sub>
             </button>
             <button
+              className={null}
               key="83"
               onClick={[Function]}
               type="button"
@@ -569,6 +588,7 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
               </sub>
             </button>
             <button
+              className={null}
               key="84"
               onClick={[Function]}
               type="button"
@@ -580,6 +600,7 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
               </sub>
             </button>
             <button
+              className={null}
               key="85"
               onClick={[Function]}
               type="button"
@@ -591,6 +612,7 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
               </sub>
             </button>
             <button
+              className={null}
               key="86"
               onClick={[Function]}
               type="button"
@@ -602,6 +624,7 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
               </sub>
             </button>
             <button
+              className={null}
               key="87"
               onClick={[Function]}
               type="button"
@@ -613,6 +636,7 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
               </sub>
             </button>
             <button
+              className={null}
               key="88"
               onClick={[Function]}
               type="button"
@@ -624,6 +648,7 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
               </sub>
             </button>
             <button
+              className={null}
               key="89"
               onClick={[Function]}
               type="button"
@@ -635,6 +660,7 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
               </sub>
             </button>
             <button
+              className={null}
               key="90"
               onClick={[Function]}
               type="button"
@@ -655,8 +681,8 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
           className="contact"
         >
           <Contacts
-            activeContact={null}
-            alphabet="A"
+            activeAlphabet="A"
+            activeContactEmail=""
             closeContactDropdown={[Function]}
             contacts={Array []}
             onClickContact={[Function]}
