@@ -1,10 +1,10 @@
-import webpack from 'webpack';
-import path from 'path';
-import dotenv from 'dotenv';
+import webpack from 'webpack'
+import path from 'path'
+import dotenv from 'dotenv'
 
-dotenv.config();
+dotenv.config()
 
-const mode = process.env.NODE_ENV || 'development';
+const mode = process.env.NODE_ENV || 'development'
 
 export default {
   entry: './src/index.jsx',
@@ -60,4 +60,4 @@ export default {
   node: {
     fs: 'empty'
   }
-};
+}

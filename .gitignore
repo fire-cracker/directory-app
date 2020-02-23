@@ -5,3 +5,7 @@ node_modules
 coverage
 docs
 dist
+public/*
+!public/index.html
+!public/assets
+!public/favicon.ico
