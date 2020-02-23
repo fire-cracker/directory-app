@@ -4,6 +4,8 @@ import PropTypes from 'prop-types';
 import { filterContacts } from '../../utils/sortArray';
 import ContactModal from '../modal/ContactModal';
 
+import './styles.css';
+
 /**
  * 
  * Renders a list of contacts
@@ -25,7 +27,7 @@ const Contacts = props => {
   return filterContacts(contacts, activeAlphabet).map((contact, index) => (
     <li key={index}>
       <span onClick={() => onClickContact(contact.email)}>
-        {contact.name.first} {contact.name.last}
+        {contact.name.first}, {contact.name.last.toUpperCase()}
       </span>
       {activeContactEmail === contact.email ? (
         <ContactModal

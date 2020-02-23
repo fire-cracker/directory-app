@@ -1,0 +1,45 @@
+.alphabet button {
+  cursor: pointer;
+  flex: auto;
+  font-size: 1em;
+  padding: 5px;
+  font-weight: bold;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  background-color: #f0f0f0;
+  outline: none;
+  overflow: hidden;
+}
+
+/* .alphabet button sub {
+  margin-left: 10px;
+  color: #696666;
+} */
+
+.alphabet .active {
+  border-bottom: 0;
+}
+
+.alphabet button .disabled {
+  opacity: 0.4;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+.alphabet button:hover:enabled {
+  background-color: #dcdcdc;
+}
+
+@media screen and (max-width: 767px) {
+  .alphabet button {
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 8px;
+  }
+  .alphabet .active {
+    border-right: 0;
+    border-bottom: 1px;
+  }
+}
