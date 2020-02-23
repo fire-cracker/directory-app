@@ -15,10 +15,9 @@ import './styles.css';
 const ContactModal = ({
   onClickCloseDropdown,
   contactDetails: {
-    name: { title, first, last },
+    name: { first, last },
     location: { street, city, state, postcode },
     picture: { thumbnail },
-    gender,
     email,
     phone
   }
@@ -34,42 +33,34 @@ const ContactModal = ({
         </div>
         <div className="details-div">
           <h2>
-            {first} {last}
+            {last.toUpperCase()}, {first}
           </h2>
           <table>
             <tbody>
               <tr>
-                <td>Title</td>
-                <td>{title}</td>
-              </tr>
-              <tr>
-                <td>Gender</td>
-                <td>{gender}</td>
-              </tr>
-              <tr>
-                <td>Email</td>
+                <td>email</td>
                 <td>{email}</td>
               </tr>
               <tr>
-                <td>Phone</td>
+                <td>phone</td>
                 <td>{phone}</td>
               </tr>
               <tr>
-                <td>Street</td>
+                <td>street</td>
                 <td>
                   {street.number} {street.name}
                 </td>
               </tr>
               <tr>
-                <td>City</td>
+                <td>city</td>
                 <td>{city}</td>
               </tr>
               <tr>
-                <td>State</td>
+                <td>state</td>
                 <td>{state}</td>
               </tr>
               <tr>
-                <td>Postcode</td>
+                <td>postcode</td>
                 <td>{postcode}</td>
               </tr>
             </tbody>

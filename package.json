@@ -8,7 +8,7 @@
     "test-watch": "jest -u --coverage --watchAll",
     "coverage": "cat ./coverage/lcov.info | coveralls",
     "build": "webpack --mode production && babel server -d dist",
-    "start-dev": "webpack-dev-server --open --mode development",
+    "start-dev": "webpack-dev-server --mode development",
     "docs": "jsdoc -c jsdoc.conf.json",
     "heroku-postbuild": "npm run build",
     "start": "node dist/"

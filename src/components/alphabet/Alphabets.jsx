@@ -3,8 +3,10 @@ import PropTypes from 'prop-types';
 
 import { dataFequency } from '../../utils/sortArray';
 
+import './styles.css';
+
 /**
- * 
+ *
  * Renders a list of alphabet buttons
  * @component
  * @method Alphabets
@@ -19,18 +21,22 @@ const Alphabets = props => {
   const createAlphabetsList = () => {
     const result = [];
     for (let i = 65; i < 91; i++) {
+      const stringify = String.fromCharCode(i);
       result.push(
         <button
-          className={
-            String.fromCharCode(i) === activeAlphabet ? 'active' : null
-          }
+          className={stringify === activeAlphabet ? 'active' : ''}
+          disabled = {!alphabetsFrequency[stringify]}
           type="button"
           key={i}
-          onClick={onClickAlphabet}
-          value={String.fromCharCode(i)}
+          onClick={ onClickAlphabet}
+          value={stringify}
         >
-          {String.fromCharCode(i)}
-          <sub>{alphabetsFrequency[String.fromCharCode(i)] || 0}</sub>
+          {stringify.toLowerCase()}
+          <sub
+          className = {alphabetsFrequency[stringify] === undefined ? 'disabled' : ''}
+          >
+            {alphabetsFrequency[stringify] || 0}
+          </sub>
         </button>
       );
     }

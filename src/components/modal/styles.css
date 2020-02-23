@@ -1,10 +1,10 @@
 .modal-content {
-  position: absolute;
+  position: relative;
   background-color: #f0f0f0;
   padding: 1rem;
-  width: 35%;
+  width: 90%;
   border-radius: 0.4rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 10px 0 inset rgba(0, 0, 0, 0.2), 0 -10px 10px 0 inset rgba(0, 0, 0, 0.2);
 }
 
 .close-button {
@@ -36,7 +36,6 @@
 }
 
 .right-div img {
-  width: 100%;
   height: 40%;
   border-radius: 50%;
 }
@@ -49,6 +48,8 @@
 
 .details-div h2 {
   margin: 0;
+  color: #aaaaaa;
+  font-weight: 300;
 }
 
 .details-div table {
@@ -57,4 +58,37 @@
 
 .details-div table td:first-child {
   font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  .modal-content {
+    right: 0;
+    left: 0;
+    margin: auto auto;
+    position: absolute;
+    width: 80%;
+  }
+
+  .right-div img {
+    height: 30%;
+  }
+
+  .details-div h2 {
+    padding-left: 1rem;
+  }
+
+  .details-div table {
+    table-layout: fixed;
+    width: 100%;
+  }
+
+  .details-div table td:first-child {
+    width: 35%;
+}
+
+.details-div table td:nth-child(2) {
+  word-wrap: break-word;
+  width: 65%;
+}
+
 }

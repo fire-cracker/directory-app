@@ -1,0 +1,19 @@
+.contact li {
+  border-bottom: 1px solid darkgrey;
+  width: 93%;
+  display: inline-block;
+  list-style-type: none;
+  margin: 10px;
+  height: 1.5rem;
+}
+
+.contact li span {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .contact li {
+    width: 80%;
+    white-space: nowrap;
+  }
+}

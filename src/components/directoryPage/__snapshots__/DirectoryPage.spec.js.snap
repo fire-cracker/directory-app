@@ -342,13 +342,13 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
   getContacts={[MockFunction]}
 >
   <div
-    className="app__background"
+    className="app-background"
   >
     <div
       className="directory"
     >
       <div
-        className="alphabet__div"
+        className="alphabet-div"
       >
         <ul
           className="alphabet"
@@ -675,7 +675,7 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
         </ul>
       </div>
       <div
-        className="contact__div"
+        className="contact-div"
       >
         <ul
           className="contact"
