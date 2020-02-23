@@ -1,4 +1,3 @@
-import webpack from 'webpack';
 import path from 'path'
 import dotenv from 'dotenv';
 
@@ -32,17 +31,24 @@ export default {
             }
           }
         ]
+      },
+      {
+        test: /\.(gif|png|jpe?g|svg|ico)$/i,
+        use: [
+          'file-loader?name=images/[name].[ext]',
+          {
+            loader: 'image-webpack-loader',
+            options: {
+              disable: true,
+            },
+          },
+        ],
       }
     ]
   },
   resolve: {
-    extensions: ['.jsx', '.js']
+    extensions: ['.jsx', '.js', 'gif']
   },
-  plugins: [
-    new webpack.EnvironmentPlugin([
-      'API_URL',
-    ])
-  ],
   devtool: (mode === 'development')? 'cheap-module-eval-source-map' : 'source-map',
   devServer: {
     contentBase: path.join(__dirname, 'public'),

@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import getContacts from '../apiCalls';
 import Alphabets from '../alphabet/Alphabets';
 import Contacts from '../contacts/Contacts';
+import LoaderCompenent from '../loader/Loader';
 
 import './styles.css';
 
@@ -18,7 +19,8 @@ const DirectoryPage = () => {
   const [state, setState] = useState({
     contacts: [],
     activeAlphabet: 'A',
-    activeContactEmail: ''
+    activeContactEmail: '',
+    isLoading: true
   });
 
   useEffect(() => {
@@ -28,7 +30,8 @@ const DirectoryPage = () => {
       } = await getContacts();
       setState(prevState => ({
         ...prevState,
-        contacts: results
+        contacts: results,
+        isLoading: false
       }));
     };
     fetchData();
@@ -64,19 +67,23 @@ const DirectoryPage = () => {
             <Alphabets {...state} onClickAlphabet={onClickAlphabets} />
           </ul>
         </div>
-        <div className="contact-div">
-          {state.contacts.length ? (
-            <ul className="contact">
-              <Contacts
-                {...state}
-                closeContactDropdown={onClickCloseDropdown}
-                onClickContact={onClickContact}
-              />
-            </ul>
-          ) : (
-            <div className="no-data">No data</div>
-          )}
-        </div>
+        {state.isLoading ? (
+          <LoaderCompenent />
+        ) : (
+          <div className="contact-div">
+            {state.contacts.length ? (
+              <ul className="contact">
+                <Contacts
+                  {...state}
+                  closeContactDropdown={onClickCloseDropdown}
+                  onClickContact={onClickContact}
+                />
+              </ul>
+            ) : (
+              <div className="no-data">No data</div>
+            )}
+          </div>
+        )}
       </div>
     </div>
   );
