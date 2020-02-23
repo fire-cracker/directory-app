@@ -1,12 +1,220 @@
 [
-  {"gender":"male","name":{"title":"Mr","first":"Batur","last":"Kurutluoğlu"},"location":{"street":{"number":1993,"name":"Talak Göktepe Cd"},"city":"Iğdır","state":"Bartın","country":"Turkey","postcode":30325,"coordinates":{"latitude":"71.1119","longitude":"-39.2332"},"timezone":{"offset":"-3:00","description":"Brazil, Buenos Aires, Georgetown"}},"email":"batur.kurutluoglu@example.com","phone":"(548)-203-2666","picture":{"large":"https://randomuser.me/api/portraits/men/49.jpg","medium":"https://randomuser.me/api/portraits/med/men/49.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/49.jpg"}},
-  {"gender":"male","name":{"title":"Mr","first":"Aogan","last":"Brown"},"location":{"street":{"number":9347,"name":"Manchester Street"},"city":"Porirua","state":"Marlborough","country":"New Zealand","postcode":65728,"coordinates":{"latitude":"25.3960","longitude":"38.3718"},"timezone":{"offset":"-1:00","description":"Azores, Cape Verde Islands"}},"email":"Aogan.brown@example.com","phone":"(753)-370-3854","picture":{"large":"https://randomuser.me/api/portraits/men/91.jpg","medium":"https://randomuser.me/api/portraits/med/men/91.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/91.jpg"}},
-  {"gender":"male","name":{"title":"Mr","first":"Aucasamen","last":"Johnsonstina"},"location":{"street":{"number":9372,"name":"Frances Ct"},"city":"Albany","state":"Victoria","country":"Australia","postcode":1308,"coordinates":{"latitude":"-36.6553","longitude":"-21.6926"},"timezone":{"offset":"+11:00","description":"Magadan, Solomon Islands, New Caledonia"}},"email":"aucasamen.johnson@example.com","phone":"02-1309-4578","picture":{"large":"https://randomuser.me/api/portraits/men/55.jpg","medium":"https://randomuser.me/api/portraits/med/men/55.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/55.jpg"}},
-  {"gender":"female","name":{"title":"Ms","first":"Ronja","last":"Makela"},"location":{"street":{"number":6951,"name":"Pispalan Valtatie"},"city":"Seinäjoki","state":"North Karelia","country":"Finland","postcode":51002,"coordinates":{"latitude":"11.8244","longitude":"-17.2123"},"timezone":{"offset":"+4:30","description":"Kabul"}},"email":"ronja.makela@example.com","phone":"09-368-488","picture":{"large":"https://randomuser.me/api/portraits/women/31.jpg","medium":"https://randomuser.me/api/portraits/med/women/31.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/31.jpg"}},
-  {"gender":"female","name":{"title":"Mrs","first":"Danielle","last":"Harrison"},"location":{"street":{"number":1990,"name":"Park Road"},"city":"St Davids","state":"Leicestershire","country":"United Kingdom","postcode":"QD8 1TW","coordinates":{"latitude":"-39.3993","longitude":"-41.0986"},"timezone":{"offset":"-4:00","description":"Atlantic Time (Canada), Caracas, La Paz"}},"email":"danielle.harrison@example.com","phone":"017684 25271","picture":{"large":"https://randomuser.me/api/portraits/women/50.jpg","medium":"https://randomuser.me/api/portraits/med/women/50.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/50.jpg"}},
-  {"gender":"male","name":{"title":"Mr","first":"Jayden","last":"Abraham"},"location":{"street":{"number":8429,"name":"Pierre Ave"},"city":"St. George","state":"Prince Edward Island","country":"Canada","postcode":"A2Z 4G0","coordinates":{"latitude":"9.2121","longitude":"132.7835"},"timezone":{"offset":"-3:30","description":"Newfoundland"}},"email":"jayden.abraham@example.com","phone":"393-447-5309","picture":{"large":"https://randomuser.me/api/portraits/men/36.jpg","medium":"https://randomuser.me/api/portraits/med/men/36.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/36.jpg"}},
-  {"gender":"male","name":{"title":"Monsieur","first":"Florent","last":"Lefevre"},"location":{"street":{"number":2681,"name":"Place du 22 Novembre 1943"},"city":"Saint-Sulpice (Vd)","state":"Bern","country":"Switzerland","postcode":9569,"coordinates":{"latitude":"-49.2735","longitude":"35.4768"},"timezone":{"offset":"+3:00","description":"Baghdad, Riyadh, Moscow, St. Petersburg"}},"email":"florent.lefevre@example.com","phone":"079 817 45 84","picture":{"large":"https://randomuser.me/api/portraits/men/18.jpg","medium":"https://randomuser.me/api/portraits/med/men/18.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/18.jpg"}},
-  {"gender":"male","name":{"title":"Mr","first":"Hans-Dietrich","last":"Haug"},"location":{"street":{"number":4410,"name":"Rosenweg"},"city":"Geislingen an der Steige","state":"Bremen","country":"Germany","postcode":22013,"coordinates":{"latitude":"38.3683","longitude":"15.5878"},"timezone":{"offset":"-2:00","description":"Mid-Atlantic"}},"email":"hans-dietrich.haug@example.com","phone":"0191-1658487","picture":{"large":"https://randomuser.me/api/portraits/men/50.jpg","medium":"https://randomuser.me/api/portraits/med/men/50.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/50.jpg"}},
-  {"gender":"male","name":{"title":"Mr","first":"Raju","last":"پارسا"},"location":{"street":{"number":5845,"name":"واعظی"},"city":"سبزوار","state":"خراسان رضوی","country":"Iran","postcode":74695,"coordinates":{"latitude":"-51.4614","longitude":"138.5505"},"timezone":{"offset":"+9:30","description":"Adelaide, Darwin"}},"email":"mhrd.prs@example.com","phone":"004-87957208","picture":{"large":"https://randomuser.me/api/portraits/men/22.jpg","medium":"https://randomuser.me/api/portraits/med/men/22.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/22.jpg"}},
-  {"gender":"female","name":{"title":"Ms","first":"Aaura","last":"Adam"},"location":{"street":{"number":7699,"name":"Rue Docteur-Bonhomme"},"city":"Saint-Étienne","state":"Bas-Rhin","country":"France","postcode":96121,"coordinates":{"latitude":"51.1143","longitude":"-114.2131"},"timezone":{"offset":"+10:00","description":"Eastern Australia, Guam, Vladivostok"}},"email":"laura.adam@example.com","phone":"01-85-62-38-47","picture":{"large":"https://randomuser.me/api/portraits/women/50.jpg","medium":"https://randomuser.me/api/portraits/med/women/50.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/50.jpg"}}
+  {
+    "gender": "male",
+    "name": { "title": "Mr", "first": "Batur", "last": "Kurutluoğlu" },
+    "location": {
+      "street": { "number": 1993, "name": "Talak Göktepe Cd" },
+      "city": "Iğdır",
+      "state": "Bartın",
+      "country": "Turkey",
+      "postcode": 30325,
+      "coordinates": { "latitude": "71.1119", "longitude": "-39.2332" },
+      "timezone": {
+        "offset": "-3:00",
+        "description": "Brazil, Buenos Aires, Georgetown"
+      }
+    },
+    "email": "batur.kurutluoglu@example.com",
+    "phone": "(548)-203-2666",
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/49.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/49.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/49.jpg"
+    }
+  },
+  {
+    "gender": "male",
+    "name": { "title": "Mr", "first": "Aogan", "last": "Brown" },
+    "location": {
+      "street": { "number": 9347, "name": "Manchester Street" },
+      "city": "Porirua",
+      "state": "Marlborough",
+      "country": "New Zealand",
+      "postcode": 65728,
+      "coordinates": { "latitude": "25.3960", "longitude": "38.3718" },
+      "timezone": {
+        "offset": "-1:00",
+        "description": "Azores, Cape Verde Islands"
+      }
+    },
+    "email": "Aogan.brown@example.com",
+    "phone": "(753)-370-3854",
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/91.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/91.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/91.jpg"
+    }
+  },
+  {
+    "gender": "male",
+    "name": { "title": "Mr", "first": "Aucasamen", "last": "Johnsonstina" },
+    "location": {
+      "street": { "number": 9372, "name": "Frances Ct" },
+      "city": "Albany",
+      "state": "Victoria",
+      "country": "Australia",
+      "postcode": 1308,
+      "coordinates": { "latitude": "-36.6553", "longitude": "-21.6926" },
+      "timezone": {
+        "offset": "+11:00",
+        "description": "Magadan, Solomon Islands, New Caledonia"
+      }
+    },
+    "email": "aucasamen.johnson@example.com",
+    "phone": "02-1309-4578",
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/55.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/55.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/55.jpg"
+    }
+  },
+  {
+    "gender": "female",
+    "name": { "title": "Ms", "first": "Ronja", "last": "Makela" },
+    "location": {
+      "street": { "number": 6951, "name": "Pispalan Valtatie" },
+      "city": "Seinäjoki",
+      "state": "North Karelia",
+      "country": "Finland",
+      "postcode": 51002,
+      "coordinates": { "latitude": "11.8244", "longitude": "-17.2123" },
+      "timezone": { "offset": "+4:30", "description": "Kabul" }
+    },
+    "email": "ronja.makela@example.com",
+    "phone": "09-368-488",
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/31.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/31.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/31.jpg"
+    }
+  },
+  {
+    "gender": "female",
+    "name": { "title": "Mrs", "first": "Danielle", "last": "Harrison" },
+    "location": {
+      "street": { "number": 1990, "name": "Park Road" },
+      "city": "St Davids",
+      "state": "Leicestershire",
+      "country": "United Kingdom",
+      "postcode": "QD8 1TW",
+      "coordinates": { "latitude": "-39.3993", "longitude": "-41.0986" },
+      "timezone": {
+        "offset": "-4:00",
+        "description": "Atlantic Time (Canada), Caracas, La Paz"
+      }
+    },
+    "email": "danielle.harrison@example.com",
+    "phone": "017684 25271",
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/50.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/50.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/50.jpg"
+    }
+  },
+  {
+    "gender": "male",
+    "name": { "title": "Mr", "first": "Jayden", "last": "Abraham" },
+    "location": {
+      "street": { "number": 8429, "name": "Pierre Ave" },
+      "city": "St. George",
+      "state": "Prince Edward Island",
+      "country": "Canada",
+      "postcode": "A2Z 4G0",
+      "coordinates": { "latitude": "9.2121", "longitude": "132.7835" },
+      "timezone": { "offset": "-3:30", "description": "Newfoundland" }
+    },
+    "email": "jayden.abraham@example.com",
+    "phone": "393-447-5309",
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/36.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/36.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/36.jpg"
+    }
+  },
+  {
+    "gender": "male",
+    "name": { "title": "Monsieur", "first": "Florent", "last": "Lefevre" },
+    "location": {
+      "street": { "number": 2681, "name": "Place du 22 Novembre 1943" },
+      "city": "Saint-Sulpice (Vd)",
+      "state": "Bern",
+      "country": "Switzerland",
+      "postcode": 9569,
+      "coordinates": { "latitude": "-49.2735", "longitude": "35.4768" },
+      "timezone": {
+        "offset": "+3:00",
+        "description": "Baghdad, Riyadh, Moscow, St. Petersburg"
+      }
+    },
+    "email": "florent.lefevre@example.com",
+    "phone": "079 817 45 84",
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/18.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/18.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/18.jpg"
+    }
+  },
+  {
+    "gender": "male",
+    "name": { "title": "Mr", "first": "Hans-Dietrich", "last": "Haug" },
+    "location": {
+      "street": { "number": 4410, "name": "Rosenweg" },
+      "city": "Geislingen an der Steige",
+      "state": "Bremen",
+      "country": "Germany",
+      "postcode": 22013,
+      "coordinates": { "latitude": "38.3683", "longitude": "15.5878" },
+      "timezone": { "offset": "-2:00", "description": "Mid-Atlantic" }
+    },
+    "email": "hans-dietrich.haug@example.com",
+    "phone": "0191-1658487",
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/50.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/50.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/50.jpg"
+    }
+  },
+  {
+    "gender": "male",
+    "name": { "title": "Mr", "first": "Raju", "last": "پارسا" },
+    "location": {
+      "street": { "number": 5845, "name": "واعظی" },
+      "city": "سبزوار",
+      "state": "خراسان رضوی",
+      "country": "Iran",
+      "postcode": 74695,
+      "coordinates": { "latitude": "-51.4614", "longitude": "138.5505" },
+      "timezone": { "offset": "+9:30", "description": "Adelaide, Darwin" }
+    },
+    "email": "mhrd.prs@example.com",
+    "phone": "004-87957208",
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/22.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/22.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/22.jpg"
+    }
+  },
+  {
+    "gender": "female",
+    "name": { "title": "Ms", "first": "Aaura", "last": "Adam" },
+    "location": {
+      "street": { "number": 7699, "name": "Rue Docteur-Bonhomme" },
+      "city": "Saint-Étienne",
+      "state": "Bas-Rhin",
+      "country": "France",
+      "postcode": 96121,
+      "coordinates": { "latitude": "51.1143", "longitude": "-114.2131" },
+      "timezone": {
+        "offset": "+10:00",
+        "description": "Eastern Australia, Guam, Vladivostok"
+      }
+    },
+    "email": "laura.adam@example.com",
+    "phone": "01-85-62-38-47",
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/50.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/50.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/50.jpg"
+    }
+  }
 ]

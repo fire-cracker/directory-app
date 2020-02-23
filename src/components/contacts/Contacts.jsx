@@ -7,7 +7,7 @@ import ContactModal from '../modal/ContactModal';
 import './styles.css';
 
 /**
- * 
+ *
  * Renders a list of contacts
  * @component
  * @method Contacts
@@ -45,6 +45,6 @@ Contacts.propTypes = {
   activeContactEmail: PropTypes.string.isRequired,
   onClickContact: PropTypes.func.isRequired,
   closeContactDropdown: PropTypes.func.isRequired
-}
+};
 
 export default Contacts;

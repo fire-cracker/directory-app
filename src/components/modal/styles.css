@@ -4,7 +4,8 @@
   padding: 1rem;
   width: 90%;
   border-radius: 0.4rem;
-  box-shadow: 0 10px 10px 0 inset rgba(0, 0, 0, 0.2), 0 -10px 10px 0 inset rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 10px 0 inset rgba(0, 0, 0, 0.2),
+    0 -10px 10px 0 inset rgba(0, 0, 0, 0.2);
 }
 
 .close-button {
@@ -84,11 +85,10 @@
 
   .details-div table td:first-child {
     width: 35%;
-}
+  }
 
-.details-div table td:nth-child(2) {
-  word-wrap: break-word;
-  width: 65%;
-}
-
+  .details-div table td:nth-child(2) {
+    word-wrap: break-word;
+    width: 65%;
+  }
 }

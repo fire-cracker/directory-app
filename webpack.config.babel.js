@@ -1,4 +1,5 @@
-import path from 'path'
+import webpack from 'webpack';
+import path from 'path';
 import dotenv from 'dotenv';
 
 dotenv.config();
@@ -17,7 +18,7 @@ export default {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
-          loader: "babel-loader"
+          loader: 'babel-loader'
         }
       },
       {
@@ -39,22 +40,24 @@ export default {
           {
             loader: 'image-webpack-loader',
             options: {
-              disable: true,
-            },
-          },
-        ],
+              disable: true
+            }
+          }
+        ]
       }
     ]
   },
   resolve: {
     extensions: ['.jsx', '.js', 'gif']
   },
-  devtool: (mode === 'development')? 'cheap-module-eval-source-map' : 'source-map',
+  plugins: [new webpack.EnvironmentPlugin(['API_URL'])],
+  devtool:
+    mode === 'development' ? 'cheap-module-eval-source-map' : 'source-map',
   devServer: {
     contentBase: path.join(__dirname, 'public'),
     historyApiFallback: true
   },
   node: {
-    fs: "empty"
- }
-}
+    fs: 'empty'
+  }
+};

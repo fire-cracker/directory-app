@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 
 import DirectoryPage from './components/directoryPage/DirectoryPage';
 
-import './index.css'
+import './index.css';
 
-const wrapper = document.getElementById("app");
+const wrapper = document.getElementById('app');
 render(<DirectoryPage />, wrapper);

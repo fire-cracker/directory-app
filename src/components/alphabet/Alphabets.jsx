@@ -25,15 +25,17 @@ const Alphabets = props => {
       result.push(
         <button
           className={stringify === activeAlphabet ? 'active' : ''}
-          disabled = {!alphabetsFrequency[stringify]}
+          disabled={!alphabetsFrequency[stringify]}
           type="button"
           key={i}
-          onClick={ onClickAlphabet}
+          onClick={onClickAlphabet}
           value={stringify}
         >
           {stringify.toLowerCase()}
           <sub
-          className = {alphabetsFrequency[stringify] === undefined ? 'disabled' : ''}
+            className={
+              alphabetsFrequency[stringify] === undefined ? 'disabled' : ''
+            }
           >
             {alphabetsFrequency[stringify] || 0}
           </sub>

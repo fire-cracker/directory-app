@@ -50,7 +50,7 @@ export const filterContacts = (contacts, alphabet) => {
  *
  * @method dataFequency
  * @param {Array} contacts - an array of objects
- * @return {Array} an array of objects 
+ * @return {Array} an array of objects
  */
 
 export const dataFequency = contacts => {

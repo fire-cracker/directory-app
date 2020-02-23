@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import './styles.css';
 
 /**
- * 
+ *
  * Renders the contact details dropdown
  * @component
  * @method ContactModal
@@ -81,7 +81,7 @@ ContactModal.propTypes = {
     location: PropTypes.shape({
       street: PropTypes.shape({
         number: PropTypes.number.isRequired,
-        name: PropTypes.string.isRequired,
+        name: PropTypes.string.isRequired
       }).isRequired,
       city: PropTypes.string.isRequired,
       state: PropTypes.string.isRequired,
