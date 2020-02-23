@@ -4,6 +4,7 @@ import getContacts from '../apiCalls';
 import Alphabets from '../alphabet/Alphabets';
 import Contacts from '../contacts/Contacts';
 import LoaderCompenent from '../loader/Loader';
+import contactData from '../../_mocks_/data.json';
 
 import './styles.css';
 

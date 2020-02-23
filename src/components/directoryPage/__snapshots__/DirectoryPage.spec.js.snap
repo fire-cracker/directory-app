@@ -73,7 +73,7 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
         },
       },
       Object {
-        "email": "lucas.johnson@example.com",
+        "email": "aucasamen.johnson@example.com",
         "gender": "male",
         "location": Object {
           "city": "Albany",
@@ -94,8 +94,8 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
           },
         },
         "name": Object {
-          "first": "Aucas",
-          "last": "Johnson",
+          "first": "Aucasamen",
+          "last": "Johnsonstina",
           "title": "Mr",
         },
         "phone": "02-1309-4578",
@@ -357,338 +357,417 @@ exports[`Tests for the DirectoryPage Should render DirectoryPage correctly 1`] =
             activeAlphabet="A"
             activeContactEmail=""
             contacts={Array []}
+            isLoading={true}
             onClickAlphabet={[Function]}
           >
             <button
               className="active"
+              disabled={true}
               key="65"
               onClick={[Function]}
               type="button"
               value="A"
             >
-              A
-              <sub>
+              a
+              <sub
+                className="disabled"
+              >
                 0
               </sub>
             </button>
             <button
-              className={null}
+              className=""
+              disabled={true}
               key="66"
               onClick={[Function]}
               type="button"
               value="B"
             >
-              B
-              <sub>
+              b
+              <sub
+                className="disabled"
+              >
                 0
               </sub>
             </button>
             <button
-              className={null}
+              className=""
+              disabled={true}
               key="67"
               onClick={[Function]}
               type="button"
               value="C"
             >
-              C
-              <sub>
+              c
+              <sub
+                className="disabled"
+              >
                 0
               </sub>
             </button>
             <button
-              className={null}
+              className=""
+              disabled={true}
               key="68"
               onClick={[Function]}
               type="button"
               value="D"
             >
-              D
-              <sub>
+              d
+              <sub
+                className="disabled"
+              >
                 0
               </sub>
             </button>
             <button
-              className={null}
+              className=""
+              disabled={true}
               key="69"
               onClick={[Function]}
               type="button"
               value="E"
             >
-              E
-              <sub>
+              e
+              <sub
+                className="disabled"
+              >
                 0
               </sub>
             </button>
             <button
-              className={null}
+              className=""
+              disabled={true}
               key="70"
               onClick={[Function]}
               type="button"
               value="F"
             >
-              F
-              <sub>
+              f
+              <sub
+                className="disabled"
+              >
                 0
               </sub>
             </button>
             <button
-              className={null}
+              className=""
+              disabled={true}
               key="71"
               onClick={[Function]}
               type="button"
               value="G"
             >
-              G
-              <sub>
+              g
+              <sub
+                className="disabled"
+              >
                 0
               </sub>
             </button>
             <button
-              className={null}
+              className=""
+              disabled={true}
               key="72"
               onClick={[Function]}
               type="button"
               value="H"
             >
-              H
-              <sub>
+              h
+              <sub
+                className="disabled"
+              >
                 0
               </sub>
             </button>
             <button
-              className={null}
+              className=""
+              disabled={true}
               key="73"
               onClick={[Function]}
               type="button"
               value="I"
             >
-              I
-              <sub>
+              i
+              <sub
+                className="disabled"
+              >
                 0
               </sub>
             </button>
             <button
-              className={null}
+              className=""
+              disabled={true}
               key="74"
               onClick={[Function]}
               type="button"
               value="J"
             >
-              J
-              <sub>
+              j
+              <sub
+                className="disabled"
+              >
                 0
               </sub>
             </button>
             <button
-              className={null}
+              className=""
+              disabled={true}
               key="75"
               onClick={[Function]}
               type="button"
               value="K"
             >
-              K
-              <sub>
+              k
+              <sub
+                className="disabled"
+              >
                 0
               </sub>
             </button>
             <button
-              className={null}
+              className=""
+              disabled={true}
               key="76"
               onClick={[Function]}
               type="button"
               value="L"
             >
-              L
-              <sub>
+              l
+              <sub
+                className="disabled"
+              >
                 0
               </sub>
             </button>
             <button
-              className={null}
+              className=""
+              disabled={true}
               key="77"
               onClick={[Function]}
               type="button"
               value="M"
             >
-              M
-              <sub>
+              m
+              <sub
+                className="disabled"
+              >
                 0
               </sub>
             </button>
             <button
-              className={null}
+              className=""
+              disabled={true}
               key="78"
               onClick={[Function]}
               type="button"
               value="N"
             >
-              N
-              <sub>
+              n
+              <sub
+                className="disabled"
+              >
                 0
               </sub>
             </button>
             <button
-              className={null}
+              className=""
+              disabled={true}
               key="79"
               onClick={[Function]}
               type="button"
               value="O"
             >
-              O
-              <sub>
+              o
+              <sub
+                className="disabled"
+              >
                 0
               </sub>
             </button>
             <button
-              className={null}
+              className=""
+              disabled={true}
               key="80"
               onClick={[Function]}
               type="button"
               value="P"
             >
-              P
-              <sub>
+              p
+              <sub
+                className="disabled"
+              >
                 0
               </sub>
             </button>
             <button
-              className={null}
+              className=""
+              disabled={true}
               key="81"
               onClick={[Function]}
               type="button"
               value="Q"
             >
-              Q
-              <sub>
+              q
+              <sub
+                className="disabled"
+              >
                 0
               </sub>
             </button>
             <button
-              className={null}
+              className=""
+              disabled={true}
               key="82"
               onClick={[Function]}
               type="button"
               value="R"
             >
-              R
-              <sub>
+              r
+              <sub
+                className="disabled"
+              >
                 0
               </sub>
             </button>
             <button
-              className={null}
+              className=""
+              disabled={true}
               key="83"
               onClick={[Function]}
               type="button"
               value="S"
             >
-              S
-              <sub>
+              s
+              <sub
+                className="disabled"
+              >
                 0
               </sub>
             </button>
             <button
-              className={null}
+              className=""
+              disabled={true}
               key="84"
               onClick={[Function]}
               type="button"
               value="T"
             >
-              T
-              <sub>
+              t
+              <sub
+                className="disabled"
+              >
                 0
               </sub>
             </button>
             <button
-              className={null}
+              className=""
+              disabled={true}
               key="85"
               onClick={[Function]}
               type="button"
               value="U"
             >
-              U
-              <sub>
+              u
+              <sub
+                className="disabled"
+              >
                 0
               </sub>
             </button>
             <button
-              className={null}
+              className=""
+              disabled={true}
               key="86"
               onClick={[Function]}
               type="button"
               value="V"
             >
-              V
-              <sub>
+              v
+              <sub
+                className="disabled"
+              >
                 0
               </sub>
             </button>
             <button
-              className={null}
+              className=""
+              disabled={true}
               key="87"
               onClick={[Function]}
               type="button"
               value="W"
             >
-              W
-              <sub>
+              w
+              <sub
+                className="disabled"
+              >
                 0
               </sub>
             </button>
             <button
-              className={null}
+              className=""
+              disabled={true}
               key="88"
               onClick={[Function]}
               type="button"
               value="X"
             >
-              X
-              <sub>
+              x
+              <sub
+                className="disabled"
+              >
                 0
               </sub>
             </button>
             <button
-              className={null}
+              className=""
+              disabled={true}
               key="89"
               onClick={[Function]}
               type="button"
               value="Y"
             >
-              Y
-              <sub>
+              y
+              <sub
+                className="disabled"
+              >
                 0
               </sub>
             </button>
             <button
-              className={null}
+              className=""
+              disabled={true}
               key="90"
               onClick={[Function]}
               type="button"
               value="Z"
             >
-              Z
-              <sub>
+              z
+              <sub
+                className="disabled"
+              >
                 0
               </sub>
             </button>
           </Alphabets>
         </ul>
       </div>
-      <div
-        className="contact-div"
-      >
-        <ul
-          className="contact"
+      <LoaderComponent>
+        <div
+          className="contact-div"
         >
-          <Contacts
-            activeAlphabet="A"
-            activeContactEmail=""
-            closeContactDropdown={[Function]}
-            contacts={Array []}
-            onClickContact={[Function]}
-          />
-        </ul>
-      </div>
+          <div
+            className="custom-loader"
+          >
+            <img
+              alt="loader"
+              className="custom-loader-img"
+              src="spinner.gif"
+            />
+          </div>
+        </div>
+      </LoaderComponent>
     </div>
   </div>
 </DirectoryPage>

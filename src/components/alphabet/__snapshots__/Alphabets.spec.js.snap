@@ -4,313 +4,391 @@ exports[`Tests for the Alphabet section Should render the Alphabet section 1`] =
 <Fragment>
   <button
     className="active"
+    disabled={true}
     key="65"
     onClick={[MockFunction]}
     type="button"
     value="A"
   >
-    A
-    <sub>
+    a
+    <sub
+      className="disabled"
+    >
       0
     </sub>
   </button>
   <button
-    className={null}
+    className=""
+    disabled={true}
     key="66"
     onClick={[MockFunction]}
     type="button"
     value="B"
   >
-    B
-    <sub>
+    b
+    <sub
+      className="disabled"
+    >
       0
     </sub>
   </button>
   <button
-    className={null}
+    className=""
+    disabled={true}
     key="67"
     onClick={[MockFunction]}
     type="button"
     value="C"
   >
-    C
-    <sub>
+    c
+    <sub
+      className="disabled"
+    >
       0
     </sub>
   </button>
   <button
-    className={null}
+    className=""
+    disabled={true}
     key="68"
     onClick={[MockFunction]}
     type="button"
     value="D"
   >
-    D
-    <sub>
+    d
+    <sub
+      className="disabled"
+    >
       0
     </sub>
   </button>
   <button
-    className={null}
+    className=""
+    disabled={true}
     key="69"
     onClick={[MockFunction]}
     type="button"
     value="E"
   >
-    E
-    <sub>
+    e
+    <sub
+      className="disabled"
+    >
       0
     </sub>
   </button>
   <button
-    className={null}
+    className=""
+    disabled={true}
     key="70"
     onClick={[MockFunction]}
     type="button"
     value="F"
   >
-    F
-    <sub>
+    f
+    <sub
+      className="disabled"
+    >
       0
     </sub>
   </button>
   <button
-    className={null}
+    className=""
+    disabled={true}
     key="71"
     onClick={[MockFunction]}
     type="button"
     value="G"
   >
-    G
-    <sub>
+    g
+    <sub
+      className="disabled"
+    >
       0
     </sub>
   </button>
   <button
-    className={null}
+    className=""
+    disabled={true}
     key="72"
     onClick={[MockFunction]}
     type="button"
     value="H"
   >
-    H
-    <sub>
+    h
+    <sub
+      className="disabled"
+    >
       0
     </sub>
   </button>
   <button
-    className={null}
+    className=""
+    disabled={true}
     key="73"
     onClick={[MockFunction]}
     type="button"
     value="I"
   >
-    I
-    <sub>
+    i
+    <sub
+      className="disabled"
+    >
       0
     </sub>
   </button>
   <button
-    className={null}
+    className=""
+    disabled={true}
     key="74"
     onClick={[MockFunction]}
     type="button"
     value="J"
   >
-    J
-    <sub>
+    j
+    <sub
+      className="disabled"
+    >
       0
     </sub>
   </button>
   <button
-    className={null}
+    className=""
+    disabled={true}
     key="75"
     onClick={[MockFunction]}
     type="button"
     value="K"
   >
-    K
-    <sub>
+    k
+    <sub
+      className="disabled"
+    >
       0
     </sub>
   </button>
   <button
-    className={null}
+    className=""
+    disabled={true}
     key="76"
     onClick={[MockFunction]}
     type="button"
     value="L"
   >
-    L
-    <sub>
+    l
+    <sub
+      className="disabled"
+    >
       0
     </sub>
   </button>
   <button
-    className={null}
+    className=""
+    disabled={true}
     key="77"
     onClick={[MockFunction]}
     type="button"
     value="M"
   >
-    M
-    <sub>
+    m
+    <sub
+      className="disabled"
+    >
       0
     </sub>
   </button>
   <button
-    className={null}
+    className=""
+    disabled={true}
     key="78"
     onClick={[MockFunction]}
     type="button"
     value="N"
   >
-    N
-    <sub>
+    n
+    <sub
+      className="disabled"
+    >
       0
     </sub>
   </button>
   <button
-    className={null}
+    className=""
+    disabled={true}
     key="79"
     onClick={[MockFunction]}
     type="button"
     value="O"
   >
-    O
-    <sub>
+    o
+    <sub
+      className="disabled"
+    >
       0
     </sub>
   </button>
   <button
-    className={null}
+    className=""
+    disabled={true}
     key="80"
     onClick={[MockFunction]}
     type="button"
     value="P"
   >
-    P
-    <sub>
+    p
+    <sub
+      className="disabled"
+    >
       0
     </sub>
   </button>
   <button
-    className={null}
+    className=""
+    disabled={true}
     key="81"
     onClick={[MockFunction]}
     type="button"
     value="Q"
   >
-    Q
-    <sub>
+    q
+    <sub
+      className="disabled"
+    >
       0
     </sub>
   </button>
   <button
-    className={null}
+    className=""
+    disabled={true}
     key="82"
     onClick={[MockFunction]}
     type="button"
     value="R"
   >
-    R
-    <sub>
+    r
+    <sub
+      className="disabled"
+    >
       0
     </sub>
   </button>
   <button
-    className={null}
+    className=""
+    disabled={true}
     key="83"
     onClick={[MockFunction]}
     type="button"
     value="S"
   >
-    S
-    <sub>
+    s
+    <sub
+      className="disabled"
+    >
       0
     </sub>
   </button>
   <button
-    className={null}
+    className=""
+    disabled={true}
     key="84"
     onClick={[MockFunction]}
     type="button"
     value="T"
   >
-    T
-    <sub>
+    t
+    <sub
+      className="disabled"
+    >
       0
     </sub>
   </button>
   <button
-    className={null}
+    className=""
+    disabled={true}
     key="85"
     onClick={[MockFunction]}
     type="button"
     value="U"
   >
-    U
-    <sub>
+    u
+    <sub
+      className="disabled"
+    >
       0
     </sub>
   </button>
   <button
-    className={null}
+    className=""
+    disabled={true}
     key="86"
     onClick={[MockFunction]}
     type="button"
     value="V"
   >
-    V
-    <sub>
+    v
+    <sub
+      className="disabled"
+    >
       0
     </sub>
   </button>
   <button
-    className={null}
+    className=""
+    disabled={true}
     key="87"
     onClick={[MockFunction]}
     type="button"
     value="W"
   >
-    W
-    <sub>
+    w
+    <sub
+      className="disabled"
+    >
       0
     </sub>
   </button>
   <button
-    className={null}
+    className=""
+    disabled={true}
     key="88"
     onClick={[MockFunction]}
     type="button"
     value="X"
   >
-    X
-    <sub>
+    x
+    <sub
+      className="disabled"
+    >
       0
     </sub>
   </button>
   <button
-    className={null}
+    className=""
+    disabled={true}
     key="89"
     onClick={[MockFunction]}
     type="button"
     value="Y"
   >
-    Y
-    <sub>
+    y
+    <sub
+      className="disabled"
+    >
       0
     </sub>
   </button>
   <button
-    className={null}
+    className=""
+    disabled={true}
     key="90"
     onClick={[MockFunction]}
     type="button"
     value="Z"
   >
-    Z
-    <sub>
+    z
+    <sub
+      className="disabled"
+    >
       0
     </sub>
   </button>

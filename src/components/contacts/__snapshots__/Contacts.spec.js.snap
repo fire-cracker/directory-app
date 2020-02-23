@@ -74,7 +74,7 @@ exports[`Tests for the Contacts section Should render the Contacts section 1`] =
         },
       },
       Object {
-        "email": "lucas.johnson@example.com",
+        "email": "aucasamen.johnson@example.com",
         "gender": "male",
         "location": Object {
           "city": "Albany",
@@ -95,8 +95,8 @@ exports[`Tests for the Contacts section Should render the Contacts section 1`] =
           },
         },
         "name": Object {
-          "first": "Aucas",
-          "last": "Johnson",
+          "first": "Aucasamen",
+          "last": "Johnsonstina",
           "title": "Mr",
         },
         "phone": "02-1309-4578",
@@ -348,8 +348,8 @@ exports[`Tests for the Contacts section Should render the Contacts section 1`] =
       onClick={[Function]}
     >
       Aaura
-       
-      Adam
+      , 
+      ADAM
     </span>
   </li>
   <li
@@ -359,8 +359,8 @@ exports[`Tests for the Contacts section Should render the Contacts section 1`] =
       onClick={[Function]}
     >
       Aogan
-       
-      Brown
+      , 
+      BROWN
     </span>
     <ContactModal
       contactDetails={
@@ -427,31 +427,15 @@ exports[`Tests for the Contacts section Should render the Contacts section 1`] =
             className="details-div"
           >
             <h2>
+              BROWN
+              , 
               Aogan
-               
-              Brown
             </h2>
             <table>
               <tbody>
                 <tr>
                   <td>
-                    Title
-                  </td>
-                  <td>
-                    Mr
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Gender
-                  </td>
-                  <td>
-                    male
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Email
+                    email
                   </td>
                   <td>
                     Aogan.brown@example.com
@@ -459,7 +443,7 @@ exports[`Tests for the Contacts section Should render the Contacts section 1`] =
                 </tr>
                 <tr>
                   <td>
-                    Phone
+                    phone
                   </td>
                   <td>
                     (753)-370-3854
@@ -467,7 +451,7 @@ exports[`Tests for the Contacts section Should render the Contacts section 1`] =
                 </tr>
                 <tr>
                   <td>
-                    Street
+                    street
                   </td>
                   <td>
                     9347
@@ -477,7 +461,7 @@ exports[`Tests for the Contacts section Should render the Contacts section 1`] =
                 </tr>
                 <tr>
                   <td>
-                    City
+                    city
                   </td>
                   <td>
                     Porirua
@@ -485,7 +469,7 @@ exports[`Tests for the Contacts section Should render the Contacts section 1`] =
                 </tr>
                 <tr>
                   <td>
-                    State
+                    state
                   </td>
                   <td>
                     Marlborough
@@ -493,7 +477,7 @@ exports[`Tests for the Contacts section Should render the Contacts section 1`] =
                 </tr>
                 <tr>
                   <td>
-                    Postcode
+                    postcode
                   </td>
                   <td>
                     65728
@@ -512,9 +496,9 @@ exports[`Tests for the Contacts section Should render the Contacts section 1`] =
     <span
       onClick={[Function]}
     >
-      Aucas
-       
-      Johnson
+      Aucasamen
+      , 
+      JOHNSONSTINA
     </span>
   </li>
 </Contacts>
